@@ -8,6 +8,10 @@
 
 The Verilog code helps control the RGB LED. It has a few inputs and outputs that manage the red, green, and blue LED colors.
 
+### Module Declaration 
+
+- This declares about the input and outputs . 
+
 ### Key Inputs and Outputs:
 
 - **Input:**
