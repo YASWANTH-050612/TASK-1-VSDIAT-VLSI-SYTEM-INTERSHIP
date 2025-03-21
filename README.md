@@ -86,13 +86,13 @@ After 3 attemps it successfully came  ....
 Unknowngly and unfortunately , I used multiusb cable which has 3 different cabbles , the second cable came contact to the first led which is used to  if  the PC is 
 connected or not , so the LED is offed because of short circit So I thought it gone but with god,s grace the LED is only gone not the board .......
 
+###Workings
+
+![Video of the blinking of the led project](20250321_072346%20(1).mp4)
 
 
-It was fun to learn!!!!
 
-
-
-![Video of the project](20250321_072346%20(1).mp4)
+It was fun to learning these things !!!!!!!
 
 
 
