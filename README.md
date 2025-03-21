@@ -25,6 +25,7 @@ The Verilog code helps control the RGB LED. It has a few inputs and outputs that
 - The **RGB LED Driver** takes care of showing the colors on the LED.
 
  {As told in the datashhet}
+ 
 ---
 
 ## 2. Pin Mapping (from the PCF file)
@@ -39,7 +40,7 @@ The **PCF file** shows where to connect things between the Verilog code and the 
 
 These connections were double-checked using the board’s datasheet to make sure everything was correct.
 
-Note : That the PCF file shows that the pin 40 for the led_blue   ,  but on the board the led_blue  which was denoted by the {capital}"B" is showing 40
+Note : That the PCF file shows that the pin 40 for the led_blue   ,  but on the board the led_blue  which was denoted by the {capital}"B" is showing 41
 
 ---
 
@@ -88,7 +89,7 @@ connected or not , so the LED is offed because of short circit So I thought it g
 
 ###Workings
 
-![Video of the blinking of the led project](20250321_072346%20(1).mp4)
+
 
 
 
