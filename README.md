@@ -74,7 +74,7 @@ Getting the FPGA connected to the computer using **USB-C** and **FTDI** took som
 ## 5. Final Thoughts
 This project helped me learn how to control the RGB LED with **Verilog**, how to set up pin mappings, and how to flash the **VSDSquadron FPGA Mini Board**. 
 
-### 6. Some other obsevations and problems
+### 6. Some other obsevations and problems and slutions
 
 First the VM is not recognising and it is a big deal
 
@@ -86,6 +86,8 @@ After 3 attemps it successfully came  ....
 
 Unknowngly and unfortunately , I used multiusb cable which has 3 different cabbles , the second cable came contact to the first led which is used to  if  the PC is 
 connected or not , so the LED is offed because of short circit So I thought it gone but with god,s grace the LED is only gone not the board .......
+
+So , I used the single USB cable..
 
 ###Workings
 
