@@ -94,7 +94,7 @@ connected or not , so the LED is offed because of short circit So I thought it g
 So , I used the single USB cable..
 
 
-It was fun to learning these things !!!!!!!
+It was glad to learning these things !!!!!!!
 
 
 
