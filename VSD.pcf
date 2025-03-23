@@ -3,3 +3,5 @@ set_io  led_blue 41
 set_io  led_green 40
 set_io  hw_clk 20
 set_io  testwire 17
+
+# The led_blue pin assingnments are incorrect It shows in the PCF file as 40 , but in the Board it denoted as "B" has 41
