@@ -1,0 +1,45 @@
+
+{
+    "version": 1,
+    "format_version": 1,
+    "cells": {
+      "my_top_module": {
+        "type": "top",
+        "inputs": {
+          "hw_clk": {"type": "input", "bitwidth": 1},
+          "testwire": {"type": "input", "bitwidth": 1}
+        },
+        "outputs": {
+          "led_red": {"type": "output", "bitwidth": 1},
+          "led_blue": {"type": "output", "bitwidth": 1},
+          "led_green": {"type": "output", "bitwidth": 1}
+        },
+        "cells": {
+          "led_red_reg": {
+            "type": "FF",
+            "params": {"width": 1},
+            "inputs": {"clk": "hw_clk", "d": "testwire", "q": "led_red"}
+          },
+          "led_blue_reg": {
+            "type": "FF",
+            "params": {"width": 1},
+            "inputs": {"clk": "hw_clk", "d": "~testwire", "q": "led_blue"}
+          },
+          "led_green_reg": {
+            "type": "FF",
+            "params": {"width": 1},
+            "inputs": {"clk": "hw_clk", "d": "0", "q": "led_green"}
+          }
+        }
+      }
+    },
+    "connections": [
+      {"from": "my_top_module.hw_clk", "to": "led_red_reg.clk"},
+      {"from": "my_top_module.hw_clk", "to": "led_blue_reg.clk"},
+      {"from": "my_top_module.hw_clk", "to": "led_green_reg.clk"},
+      {"from": "my_top_module.testwire", "to": "led_red_reg.d"},
+      {"from": "~my_top_module.testwire", "to": "led_blue_reg.d"},
+      {"from": "0", "to": "led_green_reg.d"}
+    ]
+  }
+  
