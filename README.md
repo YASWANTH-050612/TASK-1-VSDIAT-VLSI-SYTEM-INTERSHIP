@@ -1,6 +1,6 @@
 # TASK-1-VSDIAT-VLSI-SYTEM-INTERSHIP
 
-### 1
+## 1
 
 # Verilog Code and FPGA Integration - Simple Guide
 
