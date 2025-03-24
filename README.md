@@ -2,7 +2,7 @@
 
 ## 1
 
-# Verilog Code and FPGA Integration - Simple Guide
+# Verilog Code and FPGA Integration 
 
 ## 1. Verilog Code Overview
 
